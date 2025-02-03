@@ -25,6 +25,15 @@ let rhso = oc - lhso
 
 //:  - Experiment: Rewrite the code so that it makes sense without needing a note. Use meaningful names and comments.
 let orangeCount = 14
+let watermelonCount = 3
+let orangeWeight = 100
+let watermelonWeight = 200
+let totalOrangeWeight = orangeCount * orangeWeight
+let totalWatermelonWeight = watermelonCount * watermelonWeight
+let totalWeight = totalOrangeWeight + totalWatermelonWeight
+let evenlySplitWeight = totalWeight / 2
+let leftHandSideOrangeCount = evenlySplitWeight / orangeWeight
+let rightHandSideOrangeCount = orangeCount - leftHandSideOrangeCount
 /*:
   _Copyright © 2021 Apple Inc._
  
