@@ -24,7 +24,7 @@ let rhso = oc - lhso
 
 
 //:  - Experiment: Rewrite the code so that it makes sense without needing a note. Use meaningful names and comments.
-
+let orangeCount = 14
 /*:
   _Copyright © 2021 Apple Inc._
  
