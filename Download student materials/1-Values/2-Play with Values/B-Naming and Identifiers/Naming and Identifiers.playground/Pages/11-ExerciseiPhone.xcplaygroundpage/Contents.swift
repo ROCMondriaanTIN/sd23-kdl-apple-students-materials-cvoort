@@ -15,8 +15,15 @@
  - callout(Exercise): How many minutes of video will it take to fill the phone?\
  _Hint_: Do all of your calculations in megabytes (MB).
  */
- 
+let phoneStorageInGigabytes = 8
 
+let phoneStorageInMegabytes = phoneStorageInGigabytes * 1000
+
+let storageSpaceLeft = phoneStorageInMegabytes - 3000
+
+let oneMinuteOfVideo = 150
+
+let minutesOfVideoNeeded = storageSpaceLeft / oneMinuteOfVideo
 
 /*:
 [Previous](@previous)  |  page 12 of 14  |  [Next: Exercise: Fixing Your Morning](@next)

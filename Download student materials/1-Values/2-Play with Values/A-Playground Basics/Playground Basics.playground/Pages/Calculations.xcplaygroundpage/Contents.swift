@@ -36,7 +36,7 @@ Practice using the playground like a calculator.
 Edit some of the existing expressions and add a few of your own.
 Notice that every time you make a change the results are updated in the sidebar.
  */
- 
+ 3 * 4 / 2 + 7
 
 /*:
 Next, learn how programmers can leave notes in code.
